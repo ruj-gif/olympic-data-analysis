@@ -36,3 +36,44 @@ SELECT Discipline,
        AVG(Male) AS Avg_Male
 FROM entriesgender
 GROUP BY Discipline;
+
+
+-- ==========================================
+-- SYNAPSE DATABASE TABLE SCHEMAS
+-- ==========================================
+
+-- ATHLETES
+-- PersonName: string
+-- Country: string
+-- Discipline: string
+
+
+-- COACHES
+-- Name: string
+-- Country: string
+-- Discipline: string
+-- Event: string
+
+
+-- ENTRIESGENDER
+-- Discipline: string
+-- Female: long
+-- Male: long
+-- Total: long
+
+
+-- MEDALS
+-- Rank: long
+-- TeamCountry: string
+-- Gold: long
+-- Silver: long
+-- Bronze: long
+-- Total: long
+-- Rank_by_Total: long
+
+
+-- TEAMS
+-- TeamName: string
+-- Discipline: string
+-- Country: string
+-- Event: string
