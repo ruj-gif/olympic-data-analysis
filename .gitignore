@@ -1,0 +1,56 @@
+# =========================
+# Python Virtual Environment
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Python Cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Azure Credentials / Secrets
+# =========================
+config.py
+.env
+.env.*
+*.key
+*.pem
+
+# =========================
+# Jupyter Notebook Checkpoints
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+
+
+# Spark generated files
+_SUCCESS
+*.crc
+
