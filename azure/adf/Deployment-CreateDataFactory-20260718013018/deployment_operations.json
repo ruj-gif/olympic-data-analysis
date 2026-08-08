@@ -1,0 +1,31 @@
+[
+  {
+    "id": "/subscriptions/de74eccd-654c-4862-935e-73f9998995f0/resourceGroups/olympic-data-analysis/providers/Microsoft.Resources/deployments/CreateDataFactory-20260718013018/operations/B00148D9F05C4B48",
+    "operationId": "B00148D9F05C4B48",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2026-07-17T20:03:23.9706786Z",
+      "duration": "PT5.6687991S",
+      "trackingId": "895d66fb-dfc9-46b5-b559-38211b02d772",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/de74eccd-654c-4862-935e-73f9998995f0/resourceGroups/olympic-data-analysis/providers/Microsoft.DataFactory/factories/tokyo-oolympicc-df",
+        "resourceType": "Microsoft.DataFactory/factories",
+        "resourceName": "tokyo-oolympicc-df"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/de74eccd-654c-4862-935e-73f9998995f0/resourceGroups/olympic-data-analysis/providers/Microsoft.Resources/deployments/CreateDataFactory-20260718013018/operations/08584172882817639244",
+    "operationId": "08584172882817639244",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2026-07-17T20:03:23.9706786Z",
+      "duration": "PT5.7938141S",
+      "trackingId": "ea061d0b-aeda-431e-b561-b73ca52183ca",
+      "statusCode": "OK"
+    }
+  }
+]

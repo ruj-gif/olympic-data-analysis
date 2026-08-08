@@ -1,0 +1,133 @@
+{
+  "id": "/subscriptions/de74eccd-654c-4862-935e-73f9998995f0/resourceGroups/olympic-data-analysis/providers/Microsoft.Resources/deployments/CreateDataFactory-20260718013018",
+  "name": "CreateDataFactory-20260718013018",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateHash": "885626415747157646",
+    "parameters": {
+      "subscription": {
+        "type": "String",
+        "value": "de74eccd-654c-4862-935e-73f9998995f0"
+      },
+      "resourceGroup": {
+        "type": "String",
+        "value": "olympic-data-analysis"
+      },
+      "name": {
+        "type": "String",
+        "value": "tokyo-oolympicc-df"
+      },
+      "version": {
+        "type": "String",
+        "value": "V2"
+      },
+      "location": {
+        "type": "String",
+        "value": "southeastasia"
+      },
+      "tagsByResource": {
+        "type": "Object",
+        "value": {}
+      },
+      "vNetEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "publicNetworkAccess": {
+        "type": "Bool",
+        "value": true
+      },
+      "privateEndpoints": {
+        "type": "Array",
+        "value": []
+      },
+      "gitConfigureLater": {
+        "type": "Bool",
+        "value": true
+      },
+      "gitRepoType": {
+        "type": "String",
+        "value": "FactoryVSTSConfiguration"
+      },
+      "gitAccountName": {
+        "type": "String",
+        "value": ""
+      },
+      "gitProjectName": {
+        "type": "String",
+        "value": ""
+      },
+      "gitRepositoryName": {
+        "type": "String",
+        "value": ""
+      },
+      "gitCollaborationBranch": {
+        "type": "String",
+        "value": "master"
+      },
+      "gitRootFolder": {
+        "type": "String",
+        "value": "/"
+      },
+      "userAssignedIdentities": {
+        "type": "Object",
+        "value": {
+          "type": "SystemAssigned"
+        }
+      },
+      "userAssignedIdentitiesStr": {
+        "type": "String",
+        "value": "{\"type\": \"SystemAssigned,UserAssigned\", \"userAssignedIdentities\": {\"\" : {}}}"
+      },
+      "vaultBaseUrl": {
+        "type": "String",
+        "value": ""
+      },
+      "keyName": {
+        "type": "String",
+        "value": ""
+      },
+      "keyVersion": {
+        "type": "String",
+        "value": ""
+      },
+      "enableCMK": {
+        "type": "Bool",
+        "value": false
+      },
+      "cmkIdentity": {
+        "type": "String",
+        "value": ""
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2026-07-17T20:03:29.7957231Z",
+    "duration": "PT6.0840104S",
+    "correlationId": "39e72ea5-8d31-4aff-be75-8212c8308109",
+    "providers": [
+      {
+        "namespace": "Microsoft.DataFactory",
+        "resourceTypes": [
+          {
+            "resourceType": "factories",
+            "locations": [
+              "southeastasia"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/de74eccd-654c-4862-935e-73f9998995f0/resourceGroups/olympic-data-analysis/providers/Microsoft.DataFactory/factories/tokyo-oolympicc-df"
+      }
+    ],
+    "validationLevel": "Template"
+  },
+  "tags": {}
+}
